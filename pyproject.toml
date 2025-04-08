@@ -1,0 +1,17 @@
+[project]
+name = "curve-fitter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Andy Weaver", email = "andrewayersweaver@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+curve-fitter = "curve_fitter:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
